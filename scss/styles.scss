@@ -1,0 +1,54 @@
+@import 'config';
+@import 'globals';
+
+body {
+    background-color: $light-color;
+}
+
+
+h1 {
+    color: red;
+}
+
+
+#_container_ {
+  display: grid;
+  grid-gap: 20px;
+
+  height: 100vh;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 1fr 100px;
+  grid-template-areas: 
+    "_navbar_     _navbar_ "
+    "_hero-left_  _hero-right_"
+    "_footer_     _footer_"
+}
+@media(max-width: 1000px) {
+    #_container_ {
+        height: 100vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 1fr 1fr 100px;
+        grid-template-areas: 
+            "_navbar_    "
+            "_hero-left_ "
+            "_hero-right_"
+            "_footer_    "
+    }
+}
+
+#_nav_ {
+  grid-area: _navbar_;
+  background: red;
+}
+#_hero-left_ {
+  grid-area: _hero-left_;
+  background: green;
+}
+#_hero-right_ {
+  grid-area: _hero-right_;
+  background: blue;
+}
+#_footer_ {
+  grid-area: _footer_;
+  background: orange;
+}
