@@ -21,16 +21,16 @@ h1 {
   grid-gap: 20px;
   height: 100vh;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 1fr 100px;
-  grid-template-areas: "_navbar_     _navbar_ " "_hero-left_  _hero-right_" "_footer_     _footer_";
+  grid-template-rows: 100px 1fr 1fr 100px;
+  grid-template-areas: "_navbar_     _navbar_" "_hero-left_  _hero-right_" "_main_       _main_" "_footer_     _footer_";
 }
 
 @media (max-width: 1000px) {
   #_container_ {
     height: 100vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 1fr 1fr 100px;
-    grid-template-areas: "_navbar_    " "_hero-left_ " "_hero-right_" "_footer_    ";
+    grid-template-rows: 100px 1fr 1fr 1fr 100px;
+    grid-template-areas: "_navbar_    " "_hero-left_ " "_hero-right_" "_main_" "_footer_    ";
   }
 }
 
@@ -47,6 +47,12 @@ h1 {
 #_hero-right_ {
   grid-area: _hero-right_;
   background: blue;
+}
+
+#_main_ {
+  grid-area: _main_;
+  background: red;
+  display: flex;
 }
 
 #_footer_ {
