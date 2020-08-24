@@ -53,6 +53,7 @@ h1 {
   grid-area: _main_;
   background: red;
   display: flex;
+  justify-content: space-around;
 }
 
 #_footer_ {
