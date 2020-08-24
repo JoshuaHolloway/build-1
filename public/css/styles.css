@@ -9,7 +9,7 @@ h3 {
 }
 
 body {
-  background-color: lightblue;
+  background-color: black;
 }
 
 h1 {
@@ -18,7 +18,7 @@ h1 {
 
 #_container_ {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 1px;
   height: 100vh;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 100px 1fr 1fr 100px;
@@ -27,15 +27,16 @@ h1 {
 
 @media (max-width: 1000px) {
   #_container_ {
-    height: 100vh;
+    height: 150vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 100px 1fr 1fr 1fr 100px;
+    grid-template-rows: 100px 1fr 1fr 4fr 100px;
     grid-template-areas: "_navbar_    " "_hero-left_ " "_hero-right_" "_main_" "_footer_    ";
   }
   #_main_ {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
   }
 }
 
@@ -59,10 +60,12 @@ h1 {
   background: yellowgreen;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 #_footer_ {
   grid-area: _footer_;
+  background: orchid;
   display: flex;
   align-items: center;
   justify-content: center;
