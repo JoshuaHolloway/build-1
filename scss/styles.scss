@@ -44,19 +44,19 @@ h1 {
 
 #_nav_ {
   grid-area: _navbar_;
-  background: red;
+  background: $background-1;
 }
 #_hero-left_ {
   grid-area: _hero-left_;
-  background: green;
+  background: $background-4;
 }
 #_hero-right_ {
   grid-area: _hero-right_;
-  background: blue;
+  background: $background-7;
 }
 #_main_ {
   grid-area: _main_;
-  background: red;
+  background: $background-2;
   display: flex;
   justify-content: space-around
 }

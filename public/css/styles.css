@@ -41,22 +41,22 @@ h1 {
 
 #_nav_ {
   grid-area: _navbar_;
-  background: red;
+  background: palegreen;
 }
 
 #_hero-left_ {
   grid-area: _hero-left_;
-  background: green;
+  background: plum;
 }
 
 #_hero-right_ {
   grid-area: _hero-right_;
-  background: blue;
+  background: deepskyblue;
 }
 
 #_main_ {
   grid-area: _main_;
-  background: red;
+  background: yellowgreen;
   display: flex;
   justify-content: space-around;
 }
