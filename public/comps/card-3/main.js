@@ -147,14 +147,17 @@ template.innerHTML = `
                     </div>
                 </div> 
                 <div class="Card-Face Card-Face-Back Center">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus provident dolorem sit doloremque eos dolore...
+                    </p>
                 </div>
             </div>
         </div>
 
         <div class="card-title-container Center">
-            <div class="center-text">
-                <h4>Card Title</h4>
-                <h5>Card Subtitle</h5>
+            <div class="center-text" style="text-align: center;">
+                <h4>Find your strain</h4>
+                <h5>Find strains based on their effects <br/> and taste in a database of thousands</h5>
             </div>
         </div>
     </div>
