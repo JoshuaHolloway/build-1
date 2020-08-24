@@ -58,5 +58,11 @@ h1 {
 
 #_footer_ {
   grid-area: _footer_;
-  background: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+._social-container_ {
+  border: solid green 2px;
 }
