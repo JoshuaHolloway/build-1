@@ -55,6 +55,9 @@ template.innerHTML = `
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
+            background-color: hotpink;
+            padding: 15%;
+            text-align: center;
         }
         .Center {
             display: grid;
@@ -97,6 +100,9 @@ template.innerHTML = `
                     </div>
                 </div> 
                 <div class="Card-Face Card-Face-Back Center">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus provident dolorem sit doloremque eos dolore...
+                    </p>
                 </div>
             </div>
         </div>
