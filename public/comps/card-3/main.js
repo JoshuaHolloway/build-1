@@ -55,6 +55,9 @@ template.innerHTML = `
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
+            background-color: hotpink;
+            padding: 15%;
+            text-align: center;
         }
         .Center {
             display: grid;

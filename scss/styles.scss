@@ -63,5 +63,8 @@ h1 {
   justify-content: center;
 }
 ._social-container_ {
-  border: solid green 2px;
+  // border: solid green 2px;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
 }
