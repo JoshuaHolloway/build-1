@@ -5,18 +5,12 @@ body {
     background-color: $background-0;
 }
 
-
-h1 {
-    color: red;
-}
-
-
 #_container_ {
   display: grid;
   grid-gap: 1px;
   height: 100vh;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 1fr 1fr 100px;
+  grid-template-rows: 100px 1fr 1.2fr 100px;
   grid-template-areas: 
     "_navbar_     _navbar_"
     "_hero-left_  _hero-right_"
@@ -25,9 +19,9 @@ h1 {
 }
 @media(max-width: 1000px) {
     #_container_ {
-        height: 150vh;
+        height: 200vh;
         grid-template-columns: 1fr;
-        grid-template-rows: 100px 1fr 1fr 4fr 100px;
+        grid-template-rows: 100px 1fr 1fr 4.5fr 100px;
         grid-template-areas: 
             "_navbar_    "
             "_hero-left_ "
